@@ -2,9 +2,10 @@
   "name": "todo_rest_api",
   "version": "1.0.0",
   "description": "\"This is a RESTful Api for a simple todo list app using Express.js, Node.js, and MongoDB\"",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
   },
   "author": "Ariyaman Debnath",
   "license": "ISC",
