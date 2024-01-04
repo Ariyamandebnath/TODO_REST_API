@@ -7,10 +7,6 @@ This is a simple Todo API built with Express.js, Node.js, and MongoDB. It provid
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
-- [API Endpoints](#api-endpoints)
-- [Data Model](#data-model)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 - Create, Read, Update, and Delete todo items.
