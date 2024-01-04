@@ -23,17 +23,14 @@ MongoDB
 Installation
 Clone the repository:
 
-bash
 Copy code
 git clone https://github.com/your-username/todo-api.git
 Navigate to the project directory:
 
-bash
 Copy code
 cd todo-api
 Install dependencies:
 
-bash
 Copy code
 npm install
 Set up a MongoDB database and update the connection string in app.js.
@@ -41,10 +38,9 @@ Set up a MongoDB database and update the connection string in app.js.
 Usage
 Start the Express server:
 
-bash
 Copy code
 npm start
-The API will be accessible at http://localhost:3000/api/todos.
+The API will be accessible at http://localhost:8000/api/todos.
 
 API Endpoints
 GET /api/todos: Get all todos.
